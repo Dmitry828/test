@@ -1,6 +1,14 @@
 import { Wrapper } from './styled';
 
 export const Auth = () => {
+
+  const useToggle = (initialState:boolean) => {
+    console.log('4')
+    console.log('4')
+    console.log('4')
+    console.log('4')
+    return 1
+  }
   return (
     <Wrapper>
       <div>22222222222</div>
