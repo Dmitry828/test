@@ -9,7 +9,7 @@ export const Auth = () => {
   };
   return (
     <Wrapper>
-      <div>22222222222</div>
+      <div>222222222666666622</div>
       <div>33333333333333</div>
       <div>444444444444</div>
       <div>555 gdfh 555</div>
