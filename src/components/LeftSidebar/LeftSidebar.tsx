@@ -47,7 +47,7 @@ export const LeftSidebar: React.FC = () => {
   }
   return (
     <Wrapper>
-      <div onClick={handleAuth}>Выйтиии</div>
+      <div onClick={handleAuth}>Выйтиии6</div>
       <User isAuth={isAuth} />
       <Menu arr={mainMenu} title={titleArr[0]} />
       <Menu arr={socialMenu} title={titleArr[1]} />
