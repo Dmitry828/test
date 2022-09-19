@@ -1,14 +1,12 @@
 import { Wrapper } from './styled';
+import { useCallback, useState } from 'react';
 
 export const Auth = () => {
-
-  const useToggle = (initialState:boolean) => {
-    console.log('4')
-    console.log('4')
-    console.log('4')
-    console.log('4')
-    return 1
-  }
+  const useToggle = (initialState = false) => {
+    const [state, setState] = useState(initialState);
+    const toggle = useCallback(() => setState(state => !state), []);
+    return [state, toggle];
+  };
   return (
     <Wrapper>
       <div>22222222222</div>
@@ -18,3 +16,4 @@ export const Auth = () => {
     </Wrapper>
   );
 };
+//Код измени, запушь изменения и попытайся изменить тот же код снова с ветки которая на 1 коммит отстает
